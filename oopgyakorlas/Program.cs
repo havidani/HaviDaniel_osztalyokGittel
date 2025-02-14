@@ -16,6 +16,7 @@
 
             Console.WriteLine();
             Film film1 = new ("Titanic", "James Cameron", 195, "romantikus", true);
+
 			Film film2 = new ("Ez még készül", "Én");
 			Console.WriteLine(film1.ToString());
             Console.WriteLine();
