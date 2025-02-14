@@ -31,14 +31,25 @@
 			Karakter karakter2 = new Karakter("Aragorn", 15, 150, 25);
 			Console.WriteLine(karakter1.ToString());
 			Console.WriteLine(karakter2.ToString());
-
 			Console.WriteLine();
 			karakter2.Tamadas();
 			Console.WriteLine();
 			karakter1.Gyogyulas(10);
 			Console.WriteLine();
-
 			karakter2.SzintLepes();
-		}
+            Console.WriteLine();
+
+			Urhajo urhajo1 = new Urhajo("Millennium Falcon", 1000, 10, 100);
+			Urhajo urhajo2 = new Urhajo("X-Wing", 500, 2, 75);
+			Console.WriteLine(urhajo1.ToString());
+			Console.WriteLine(urhajo2.ToString());
+            Console.WriteLine();
+			urhajo1.Indulas();
+            Console.WriteLine();
+            urhajo2.Tankolas(10);
+            Console.WriteLine();
+            urhajo1.Landolas();
+            Console.WriteLine();
+        }
 	}
 }
