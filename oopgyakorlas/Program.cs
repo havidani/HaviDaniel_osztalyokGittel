@@ -50,6 +50,16 @@
             Console.WriteLine();
             urhajo1.Landolas();
             Console.WriteLine();
-        }
+
+			KemKuldetes kuldetes1 = new KemKuldetes("geza", "Magyarország", 10, 50);
+			Console.WriteLine(kuldetes1.ToString());
+			Console.WriteLine();
+			kuldetes1.KuldetesInditasa();
+			Console.WriteLine();
+			kuldetes1.VeszelySzintNovelese(10);
+			Console.WriteLine();
+			kuldetes1.SikerEsejNovelese(5);
+			Console.WriteLine();
+		}
 	}
 }
