@@ -25,6 +25,20 @@
             film1.MufajModositas("");
 			Console.WriteLine();
 			film1.HosszNovelese(0);
+            Console.WriteLine();
+
+            Karakter karakter1 = new Karakter("Gandalf", 10, 100, 20);
+			Karakter karakter2 = new Karakter("Aragorn", 15, 150, 25);
+			Console.WriteLine(karakter1.ToString());
+			Console.WriteLine(karakter2.ToString());
+
+			Console.WriteLine();
+			karakter2.Tamadas();
+			Console.WriteLine();
+			karakter1.Gyogyulas(10);
+			Console.WriteLine();
+
+			karakter2.SzintLepes();
 		}
 	}
 }
